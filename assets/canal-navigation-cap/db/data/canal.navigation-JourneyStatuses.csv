@@ -1,0 +1,5 @@
+name,descr
+scheduled,Journey is planned but not yet started
+underway,Journey is currently in progress
+completed,Journey has been successfully completed
+cancelled,Journey was cancelled before completion

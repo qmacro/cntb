@@ -1,0 +1,4 @@
+name,descr
+scheduled,Lock passage is scheduled
+completed,Lock has been passed successfully
+skipped,Lock passage was skipped

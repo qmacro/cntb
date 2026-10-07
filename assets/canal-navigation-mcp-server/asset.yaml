@@ -1,0 +1,21 @@
+apiVersion: asset.sap/v1
+kind: Asset
+
+type: mcp-server
+
+metadata:
+  name: canal-navigation-mcp-server
+  version: "1.0.0"
+  translation: mcp-translation/translation.json
+  apiSpec: mcp-translation/api-spec.edmx
+
+provides:
+  apis:
+    - name: canal-navigation-mcp-server
+      kind: mcp-server
+      ordId: customer.build:apiResource:canal-navigation-470db.canal-navigation-mcp-server:v1
+
+requires:
+  - name: canal-navigation-cap
+    kind: api
+    ordId: customer.build:apiResource:canal-navigation-470db.canal-navigation-cap:v1

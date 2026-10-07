@@ -1,0 +1,11 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: canal-navigation-470db
+  version: 1.0.0
+  description: CAP backend to manage canal navigation routes, vessels, locks, and real-time tracking of waterway journeys
+
+assets:
+  - ref: ./assets/canal-navigation-cap/asset.yaml
+  - ref: ./assets/canal-navigation-mcp-server/asset.yaml

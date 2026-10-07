@@ -1,0 +1,207 @@
+[
+  {
+    "name": "get_metadata_canalnavigationservice",
+    "title": "get_metadata_canalnavigationservice",
+    "description": "Get metadata of the OData service with optional filtering to reduce token consumption.\nReturns the metadata in XML format, which can be used to discover available entities and their properties.\nCall this endpoint every time before you call other tools to ensure understanding of the schema.\nBased on the metadata, you can dynamically create an OData request.\n\nUse filtering parameters to get specific metadata sections. Without parameters, this tool returns the complete XML metadata (which might be huge).\nOnly use the specified enum values for the filtering parameters.\n"
+  },
+  {
+    "name": "batch_for_canalnavigationservice",
+    "title": "batch_for_canalnavigationservice",
+    "description": "Execute multiple OData operations in a single batch request using the $batch endpoint. This allows you to combine multiple tool calls into one HTTP request, improving efficiency when performing multiple operations."
+  },
+  {
+    "name": "list_vessels_for_canalnavigationservice",
+    "title": "list_Vessels_for_canalnavigationservice",
+    "description": "Retrieve a list of entities from the Vessels collection in the canalnavigationservice service."
+  },
+  {
+    "name": "create_vessels_for_canalnavigationservice",
+    "title": "create_Vessels_for_canalnavigationservice",
+    "description": "Create a new Vessel."
+  },
+  {
+    "name": "update_vessels_for_canalnavigationservice",
+    "title": "update_Vessels_for_canalnavigationservice",
+    "description": "Update a Vessel by key."
+  },
+  {
+    "name": "delete_vessels_for_canalnavigationservice",
+    "title": "delete_Vessels_for_canalnavigationservice",
+    "description": "Delete a Vessel by key."
+  },
+  {
+    "name": "get_vessels_for_canalnavigationservice",
+    "title": "get_Vessels_for_canalnavigationservice",
+    "description": "Retrieve a single Vessel by key."
+  },
+  {
+    "name": "count_vessels_for_canalnavigationservice",
+    "title": "count_Vessels_for_canalnavigationservice",
+    "description": "Count Vessels."
+  },
+  {
+    "name": "list_waterways_for_canalnavigationservice",
+    "title": "list_Waterways_for_canalnavigationservice",
+    "description": "Retrieve a list of Waterways."
+  },
+  {
+    "name": "create_waterways_for_canalnavigationservice",
+    "title": "create_Waterways_for_canalnavigationservice",
+    "description": "Create a new Waterway."
+  },
+  {
+    "name": "update_waterways_for_canalnavigationservice",
+    "title": "update_Waterways_for_canalnavigationservice",
+    "description": "Update a Waterway by key."
+  },
+  {
+    "name": "delete_waterways_for_canalnavigationservice",
+    "title": "delete_Waterways_for_canalnavigationservice",
+    "description": "Delete a Waterway by key."
+  },
+  {
+    "name": "get_waterways_for_canalnavigationservice",
+    "title": "get_Waterways_for_canalnavigationservice",
+    "description": "Retrieve a single Waterway by key."
+  },
+  {
+    "name": "count_waterways_for_canalnavigationservice",
+    "title": "count_Waterways_for_canalnavigationservice",
+    "description": "Count Waterways."
+  },
+  {
+    "name": "list_locks_for_canalnavigationservice",
+    "title": "list_Locks_for_canalnavigationservice",
+    "description": "Retrieve a list of Locks."
+  },
+  {
+    "name": "create_locks_for_canalnavigationservice",
+    "title": "create_Locks_for_canalnavigationservice",
+    "description": "Create a new Lock."
+  },
+  {
+    "name": "update_locks_for_canalnavigationservice",
+    "title": "update_Locks_for_canalnavigationservice",
+    "description": "Update a Lock by key."
+  },
+  {
+    "name": "delete_locks_for_canalnavigationservice",
+    "title": "delete_Locks_for_canalnavigationservice",
+    "description": "Delete a Lock by key."
+  },
+  {
+    "name": "get_locks_for_canalnavigationservice",
+    "title": "get_Locks_for_canalnavigationservice",
+    "description": "Retrieve a single Lock by key."
+  },
+  {
+    "name": "count_locks_for_canalnavigationservice",
+    "title": "count_Locks_for_canalnavigationservice",
+    "description": "Count Locks."
+  },
+  {
+    "name": "list_routes_for_canalnavigationservice",
+    "title": "list_Routes_for_canalnavigationservice",
+    "description": "Retrieve a list of Routes."
+  },
+  {
+    "name": "create_routes_for_canalnavigationservice",
+    "title": "create_Routes_for_canalnavigationservice",
+    "description": "Create a new Route."
+  },
+  {
+    "name": "update_routes_for_canalnavigationservice",
+    "title": "update_Routes_for_canalnavigationservice",
+    "description": "Update a Route by key."
+  },
+  {
+    "name": "delete_routes_for_canalnavigationservice",
+    "title": "delete_Routes_for_canalnavigationservice",
+    "description": "Delete a Route by key."
+  },
+  {
+    "name": "get_routes_for_canalnavigationservice",
+    "title": "get_Routes_for_canalnavigationservice",
+    "description": "Retrieve a single Route by key."
+  },
+  {
+    "name": "count_routes_for_canalnavigationservice",
+    "title": "count_Routes_for_canalnavigationservice",
+    "description": "Count Routes."
+  },
+  {
+    "name": "list_routesegments_for_canalnavigationservice",
+    "title": "list_RouteSegments_for_canalnavigationservice",
+    "description": "Retrieve a list of RouteSegments."
+  },
+  {
+    "name": "get_routesegments_for_canalnavigationservice",
+    "title": "get_RouteSegments_for_canalnavigationservice",
+    "description": "Retrieve a single RouteSegment by key."
+  },
+  {
+    "name": "list_journeys_for_canalnavigationservice",
+    "title": "list_Journeys_for_canalnavigationservice",
+    "description": "Retrieve a list of Journeys."
+  },
+  {
+    "name": "create_journeys_for_canalnavigationservice",
+    "title": "create_Journeys_for_canalnavigationservice",
+    "description": "Schedule a new Journey (vessel + route + departure time). Lock passages are auto-generated."
+  },
+  {
+    "name": "update_journeys_for_canalnavigationservice",
+    "title": "update_Journeys_for_canalnavigationservice",
+    "description": "Update a Journey by key."
+  },
+  {
+    "name": "delete_journeys_for_canalnavigationservice",
+    "title": "delete_Journeys_for_canalnavigationservice",
+    "description": "Delete a Journey by key."
+  },
+  {
+    "name": "get_journeys_for_canalnavigationservice",
+    "title": "get_Journeys_for_canalnavigationservice",
+    "description": "Retrieve a single Journey by key, optionally expanding lock passages and position events."
+  },
+  {
+    "name": "count_journeys_for_canalnavigationservice",
+    "title": "count_Journeys_for_canalnavigationservice",
+    "description": "Count Journeys."
+  },
+  {
+    "name": "action_beginjourney_on_canalnavigationservice_journeys",
+    "title": "action_beginJourney_on_canalnavigationservice_journeys",
+    "description": "Start a scheduled journey. Sets status to 'underway' and records actual departure time."
+  },
+  {
+    "name": "action_finishjourney_on_canalnavigationservice_journeys",
+    "title": "action_finishJourney_on_canalnavigationservice_journeys",
+    "description": "Complete an underway journey. Sets status to 'completed' and records actual arrival time."
+  },
+  {
+    "name": "list_lockpassages_for_canalnavigationservice",
+    "title": "list_LockPassages_for_canalnavigationservice",
+    "description": "Retrieve lock passages, optionally filtered by journey."
+  },
+  {
+    "name": "update_lockpassages_for_canalnavigationservice",
+    "title": "update_LockPassages_for_canalnavigationservice",
+    "description": "Update a LockPassage (e.g. record actual passage time or wait time)."
+  },
+  {
+    "name": "list_positionevents_for_canalnavigationservice",
+    "title": "list_PositionEvents_for_canalnavigationservice",
+    "description": "Retrieve position events for tracking vessel location during a journey."
+  },
+  {
+    "name": "get_positionevents_for_canalnavigationservice",
+    "title": "get_PositionEvents_for_canalnavigationservice",
+    "description": "Retrieve a single PositionEvent by key."
+  },
+  {
+    "name": "action_recordposition_for_canalnavigationservice",
+    "title": "action_recordPosition_for_canalnavigationservice",
+    "description": "Record a real-time GPS position event for an underway journey."
+  }
+]

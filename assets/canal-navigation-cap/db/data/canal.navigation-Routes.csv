@@ -1,0 +1,3 @@
+ID,name,description,totalDistanceKm,estimatedDurationHours,createdAt,createdBy,modifiedAt,modifiedBy
+r1000001-0000-0000-0000-000000000001,London to Birmingham,Grand Union Canal main line from Brentford to central Birmingham,220.00,120.00,2020-01-01T00:00:00.000Z,admin,2024-01-01T00:00:00.000Z,admin
+r1000002-0000-0000-0000-000000000002,Reading to Bath,Kennet and Avon Canal from Reading to Bath,138.00,72.00,2020-01-01T00:00:00.000Z,admin,2024-01-01T00:00:00.000Z,admin

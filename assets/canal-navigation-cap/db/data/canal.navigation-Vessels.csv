@@ -1,0 +1,6 @@
+ID,name,type,lengthMeters,widthMeters,draftMeters,owner,registrationNumber,status_name,createdAt,createdBy,modifiedAt,modifiedBy
+v1000001-0000-0000-0000-000000000001,NB Lady Grace,narrowboat,21.34,2.13,0.76,Sarah Thompson,NB-2019-LG01,active,2019-03-15T00:00:00.000Z,admin,2024-01-10T00:00:00.000Z,admin
+v1000002-0000-0000-0000-000000000002,MV Canaletto,barge,38.50,5.00,1.20,Blue Waters Ltd,BW-2015-CV02,active,2015-06-01T00:00:00.000Z,admin,2023-11-20T00:00:00.000Z,admin
+v1000003-0000-0000-0000-000000000003,HB Summer Breeze,hire boat,14.00,2.13,0.60,Canal Hire Co,CH-2020-SB03,active,2020-04-10T00:00:00.000Z,admin,2024-02-05T00:00:00.000Z,admin
+v1000004-0000-0000-0000-000000000004,CB Ironbridge,cargo vessel,45.00,6.50,1.80,Midland Freight,MF-2010-CB04,maintenance,2010-08-22T00:00:00.000Z,admin,2024-03-01T00:00:00.000Z,admin
+v1000005-0000-0000-0000-000000000005,NB Kingfisher,narrowboat,18.50,2.13,0.72,James & Helen Park,NB-2022-KF05,active,2022-09-14T00:00:00.000Z,admin,2024-04-15T00:00:00.000Z,admin

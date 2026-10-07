@@ -1,0 +1,4 @@
+name,descr
+active,Vessel is operational and available for journeys
+inactive,Vessel is not in service
+maintenance,Vessel is undergoing maintenance

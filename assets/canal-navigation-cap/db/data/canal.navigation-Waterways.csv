@@ -1,0 +1,4 @@
+ID,name,description,lengthKm,maxVesselLengthMeters,maxVesselWidthMeters,maxDraftMeters,createdAt,createdBy,modifiedAt,modifiedBy
+w1000001-0000-0000-0000-000000000001,Grand Union Canal,Main arterial canal connecting London to Birmingham,220.00,21.95,4.32,1.22,2020-01-01T00:00:00.000Z,admin,2024-01-01T00:00:00.000Z,admin
+w1000002-0000-0000-0000-000000000002,Oxford Canal,Historic canal running from Coventry to Oxford,127.00,21.34,2.13,0.91,2020-01-01T00:00:00.000Z,admin,2024-01-01T00:00:00.000Z,admin
+w1000003-0000-0000-0000-000000000003,Kennet and Avon Canal,Connecting the River Thames at Reading to the River Avon at Bath,138.00,21.34,4.00,1.07,2020-01-01T00:00:00.000Z,admin,2024-01-01T00:00:00.000Z,admin

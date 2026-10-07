@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0,
+    "score": 100.00,
+    "coverage": 100.00
+  },
+  "sections": [
+    {
+      "name": "CAP Tests",
+      "marker": "cap_tests",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.00,
+      "tests": [{"name":"Journey Creation Validation > should reject creating a journey with an inactive vessel","outcome":"passed","duration":0.0241},{"name":"Journey Creation Validation > should reject creating a journey with a past departure time","outcome":"passed","duration":0.0015},{"name":"Journey Creation Validation > should auto-generate lock passages when creating a valid journey","outcome":"passed","duration":0.0078},{"name":"Journey Actions > should begin a scheduled journey","outcome":"passed","duration":0.0089},{"name":"Journey Actions > should reject beginJourney on an already-underway journey","outcome":"passed","duration":0.0098},{"name":"Journey Actions > should finish an underway journey","outcome":"passed","duration":0.0076},{"name":"Journey Actions > should reject finishJourney on a scheduled journey","outcome":"passed","duration":0.0043},{"name":"recordPosition Action > should record a position event on an underway journey","outcome":"passed","duration":0.0083},{"name":"recordPosition Action > should reject recordPosition on a completed journey","outcome":"passed","duration":0.0075}]
+    }
+  ]
+}

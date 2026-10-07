@@ -1,0 +1,39 @@
+apiVersion: asset.sap/v1
+kind: Asset
+
+metadata:
+  name: canal-navigation-cap
+  version: 1.0.0
+
+type: cap-app
+
+components:
+  # CAP backend
+  - name: srv
+    type: srv
+    buildPath: .
+    port: 4004
+    provides:
+      endpoints:
+        - path: /odata/v4
+          port: 4004
+          protocol: http
+      protocols:
+        - odata-v4
+        - rest
+    requires:
+      - name: hdi-container
+  # HANA HDI deployment
+  - name: hdi-deployer
+    type: hdi-deployer
+    buildPath: .
+    outputPath: gen/db
+    requires:
+      - hdi-container
+    custom:
+      lifecycle: init
+
+provides:
+  protocols:
+    - odata-v4
+    - rest
